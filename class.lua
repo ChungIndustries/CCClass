@@ -28,7 +28,7 @@ function Class(base)
 		end
 	}
 
-	setmetatable(cls, mt)
+	setmetatable(cls, mt)  -- "Transfer" __call method to class object
 
 	return cls
 end
